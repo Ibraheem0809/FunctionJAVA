@@ -1,0 +1,51 @@
+Introduction to Functions / Methods
+
+    A method = block of reusable code.
+
+    Helps in avoiding repetition, improves readability and maintainability.
+
+    Example: Instead of writing a+b everywhere, make a sum() method.
+
+Syntax & Declaration
+
+General structure of a method:
+        returnType methodName(parameters) {
+            // method body
+            return value;  // if returnType is not void
+        }
+Example:
+        int sum(int a, int b) {
+            return a + b;
+        }
+
+Purpose & Usage
+
+        Reduces code duplication
+
+        Improves modularity → divide program into smaller parts
+
+        Makes debugging easier
+
+Method Components
+
+        Return Type → void, int, boolean, String, etc.
+
+        Parameters → values passed into the method (Java is pass-by-value).
+
+        Calling a Method → inside main(), like:
+            int result = sum(10, 20);
+            System.out.println(result);
+
+Practice Examples
+
+        TypeFunction method (print "Hello Sidd!")
+
+        Sum of numbers
+
+        Swap function (using temp or without temp)
+
+        Prime number check
+
+        Armstrong number check
+
+        Loop printing with methods
